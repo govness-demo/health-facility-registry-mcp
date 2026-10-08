@@ -1,0 +1,19 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "ug-e-services-office.health-facility-registry-mcp"
+name: "Health facility registry MCP server"
+type: "mcp"
+version: "1.0.3"
+summary: "MCP server over the national health facility registry: search facilities, services and opening hours."
+description: "Gives assistants an authoritative list of health facilities, so referrals point to places that exist and are open."
+publisher:
+  environment: "ug-e-services-office"
+  body: "Uganda e-Services Office"
+languages: ["en"]
+license: "MIT"
+interfaces:
+  protocol: "mcp"
+  tools: ["search_facilities", "facility_services", "nearest_facility"]
+links:
+  repo: "https://github.com/govness-demo/health-facility-registry-mcp"
+domains: ["health"]
